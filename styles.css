@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    width: 1250px;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Centered header */
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+/* Styling the list of the recipe */
+ul {
+    list-style: none;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+li div {
+    border: 3px solid rgb(62, 61, 61);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+li div:hover {
+    background-color: rgb(28, 28, 28);
+    transform: scale(1.05);
+}
+
+/* Recipe title inside cards */
+.para {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 2px solid rgb(62, 61, 61);
+    height: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Image styling */
+img {
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
